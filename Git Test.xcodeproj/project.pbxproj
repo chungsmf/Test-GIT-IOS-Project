@@ -14,6 +14,7 @@
 		10288B2819EC309400EA5A21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10288B2719EC309400EA5A21 /* Images.xcassets */; };
 		10288B2B19EC309400EA5A21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10288B2919EC309400EA5A21 /* LaunchScreen.xib */; };
 		10288B3719EC309400EA5A21 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10288B3619EC309400EA5A21 /* Git_TestTests.m */; };
+		10288B4219EC34A900EA5A21 /* SMCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10288B4119EC34A900EA5A21 /* SMCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		10288B3019EC309400EA5A21 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10288B3519EC309400EA5A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10288B3619EC309400EA5A21 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		10288B4019EC34A900EA5A21 /* SMCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCTest.h; sourceTree = "<group>"; };
+		10288B4119EC34A900EA5A21 /* SMCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		10288B0E19EC309400EA5A21 = {
 			isa = PBXGroup;
 			children = (
+				10288B4019EC34A900EA5A21 /* SMCTest.h */,
+				10288B4119EC34A900EA5A21 /* SMCTest.m */,
 				10288B1919EC309400EA5A21 /* Git Test */,
 				10288B3319EC309400EA5A21 /* Git TestTests */,
 				10288B1819EC309400EA5A21 /* Products */,
@@ -222,6 +227,7 @@
 				10288B2319EC309400EA5A21 /* ViewController.m in Sources */,
 				10288B2019EC309400EA5A21 /* AppDelegate.m in Sources */,
 				10288B1D19EC309400EA5A21 /* main.m in Sources */,
+				10288B4219EC34A900EA5A21 /* SMCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
